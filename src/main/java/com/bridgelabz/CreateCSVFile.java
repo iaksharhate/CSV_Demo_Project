@@ -4,6 +4,9 @@ import java.io.File;
 import java.io.IOException;
 
 public class CreateCSVFile {
+
+    public static String FILE_PATH = "C:\\Users\\iaksh\\IdeaProjects\\CSV Demo\\src\\main\\resources\\users.csv";
+
     public static void main(String[] args) throws IOException {
 
         createFile();
@@ -11,7 +14,6 @@ public class CreateCSVFile {
     }
 
     public static void createFile() throws IOException {
-        final String FILE_PATH = "C:\\Users\\iaksh\\IdeaProjects\\CSV Demo\\src\\main\\resources\\users.csv";
 
         File file = new File(FILE_PATH);
 
